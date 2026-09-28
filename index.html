@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mary Chilila - My Student Website</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <p>My journey as a Computer Science student</p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#learning">Learning Plan</a>
+        <a href="#photos">My Photos</a>
+        <a href="#media">My Media</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- ABOUT ME -->
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+
+            <p>
+                My name is Mary Chilila, and I am a Computer Science
+                student at Mulungushi University. I am interested in
+                learning how computers and technology work. I want to
+                develop my programming and web development skills so
+                that I can create useful websites and applications.
+                I enjoy learning new things and solving problems.
+                My goal is to become a skilled computer scientist
+                and use technology to contribute positively to society.
+            </p>
+        </section>
+
+        <!-- MY HOBBIES -->
+        <section id="hobbies" class="content-section">
+            <h2>My Hobbies</h2>
+
+            <p>Here are three activities I enjoy:</p>
+
+            <ul>
+                <li>Watching Nigerian Movies</li>
+                <li>Listening to Gospel Songs</li>
+                <li>Working Hard</li>
+            </ul>
+        </section>
+
+        <!-- MY LEARNING PLAN -->
+        <section id="learning" class="content-section">
+            <h2>My Learning Plan</h2>
+
+            <p>
+                These are the steps I will follow to improve
+                my web development skills:
+            </p>
+
+            <ol>
+                <li>Learn HTML elements and website structure.</li>
+                <li>Practise CSS to design attractive websites.</li>
+                <li>Learn JavaScript to make websites interactive.</li>
+                <li>Build and publish my own website projects.</li>
+            </ol>
+
+            <h3>My Weekly Web Learning Plan</h3>
+
+            <table>
+                <caption>Weekly Web Development Study Schedule</caption>
+
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Practice Task</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML</td>
+                        <td>Create a basic webpage.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>CSS</td>
+                        <td>Style a webpage using colours and fonts.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>JavaScript</td>
+                        <td>Practise simple interactive programs.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- MY PHOTOS -->
+        <section id="photos" class="content-section">
+            <h2>My Photos</h2>
+
+            <p>
+                This gallery will contain photos showing my
+                student life, learning activities and interests.
+            </p>
+
+            <div class="gallery">
+
+                <figure>
+                    <img src="images/photo1.jpg"
+                         alt="A photograph of me" width="300">
+
+                    <figcaption>
+                        Photo 1: My personal photograph.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/photo2.jpg"
+                         alt="A photograph of my learning activities">
+
+                    <figcaption>
+                        Photo 2: My learning activities.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/photo3.jpg"
+                         alt="A photograph related to my hobbies">
+
+                    <figcaption>
+                        Photo 3: One of my hobbies.
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <!-- MY MEDIA -->
+        <section id="media" class="content-section">
+            <h2>My Media</h2>
+
+            <h3>My Introduction Video</h3>
+
+            <p>
+                This video introduces me, my programme of study
+                and the web development skills I want to learn.
+            </p>
+
+            <video controls>
+                <source src="videos/intro.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+
+            <p>
+                Video summary: In this video, I introduce myself
+                as a Computer Science student, describe my
+                programme and explain the web development skills
+                I hope to acquire.
+            </p>
+
+            <h3>My Audio Recording</h3>
+
+            <p>
+                This recording describes one of my hobbies
+                and explains why I enjoy learning new things.
+            </p>
+
+            <audio controls>
+                <source src="videos/voice.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <p>
+                Audio description: A short recording about
+                my interests and hobbies.
+            </p>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="content-section">
+            <h2>Contact Me</h2>
+
+            <p>
+                You can use the form below to practise
+                sending a message through a website.
+            </p>
+
+            <form action="#" method="post">
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"
+                       required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email"
+                       required>
+
+                <label for="topic">Topic:</label>
+                <select id="topic" name="topic">
+                    <option value="">Select a topic</option>
+                    <option value="education">Education</option>
+                    <option value="programming">Programming</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"
+                          rows="5" required></textarea>
+
+                <button type="submit">Submit Message</button>
+
+            </form>
+
+            <p>
+                Note: This is a demonstration form only.
+                It does not send or store any messages.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            &copy; 2026 Mary Chilila.
+            My ICT251 Web Technologies Project.
+        </p>
+
+        <p>
+            Learn more about web development:
+            <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development"
+               target="_blank" rel="noopener noreferrer">
+                MDN Web Development Learning Resources
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
